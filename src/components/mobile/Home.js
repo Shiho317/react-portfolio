@@ -1,28 +1,14 @@
 import React from 'react';
-import Menu from './Menu';
 import HomeImage from '../../images/Shiho-home.png';
-import '../styles/Mobile-Home.css';
+import '../styles/Home.css';
 
 function Home() {
+
   return (
     <React.Fragment>
       <div className="home">
-
-        <div className="menu">
-        <Menu/>
-        <nav className="menu-list">
-          <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Résumé</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-        </div>
-
         <div className="body">
-          <div className="bg-color"></div>
+          <div className="home-color"></div>
 
           <div className="front-end-developer">
             <h1><span className="white-str">F</span>ront End Developer</h1>

@@ -1,15 +1,33 @@
 import React, { useState } from 'react';
-import { Spin as Hamburger } from 'hamburger-react'
+import HamburgerMenu from './HamburgerMenu';
+import '../styles/Menu.css';
 
 function Menu() {
+  
+  const [isOpenMenuList, setIsOpenMenuList] = useState(false);
 
-    const [isOpenMenu, setIsOpenMenu] = useState(false);
-    
+  const handleClickOpenMenu = () => {
+    setIsOpenMenuList((prev) => !prev)
+  }
+
   return (
     <div>
-      <Hamburger toggled={isOpenMenu} toggle={setIsOpenMenu} direction="right" size={30} color="var(--white-color)"/>
+      <div className="menu">
+        <div className="menu-btn" onClick={handleClickOpenMenu}>
+          <HamburgerMenu />
+        </div>
+      <nav className={isOpenMenuList ? "menu-list" : "menu-list-hidden"}>
+      <ul>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Work</li>
+        <li>Résumé</li>
+        <li>Contact</li>
+      </ul>
+      </nav>
+      </div>
     </div>
   )
 }
 
-export default Menu;
+export default Menu

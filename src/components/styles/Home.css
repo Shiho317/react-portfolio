@@ -1,4 +1,243 @@
-.home{
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body{
+  position: relative;
+  margin: 0;
+  background-color: var(--white-color);
+}
+
+.home-color{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  background-color: var(--red-color);
+}
+
+.home-color::before{
+  content: '';
+  position: absolute;
+  bottom: -0.4px;
+  left: 0;
+  border-bottom: 40vw solid var(--white-color);
+  border-left: 100vw solid transparent;
+}
+
+.front-end-developer{
+  position: absolute;
+  top: 16%;
+  left: 16%;
+  transform: translateX(-10%);
+  font-size: 15px;
+}
+
+.white-str{
+  color: var(--white-color);
+}
+
+.shiho-nagano{
+  position: absolute;
+  top: 22%;
+  right: 10%;
+  font-size: 15px;
+  color: var(--white-color);
+}
+
+.black-str{
+  color: var(--black-color);
+}
+
+.intro-arrow{
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.intro p{
+  color: var(--gray-color);
+  font-size: 15px;
+}
+
+.arrow i{
+  transform: rotate(90deg);
+}
+
+.big-img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 20%;
+  width: 100%;
+}
+
+.home-img{
+  width: 250px;
+}
+
+.down-arrow{
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  animation: move-arrows 2s infinite;
+}
+
+.down-arrow p {
+  position: relative;
+  top: 15px;
+  right: 15px;
+  transform: rotate(-90deg);
+  color: var(--gray-color);
+}
+
+.arrow{
+  display: flex;
+  transform: rotate(90deg);
+}
+
+.arrow::after{
+  content: '';
+  width: 55px;
+  height: 10px;
+  border-bottom: 1px solid var(--gray-color);
+  border-right: 1px solid var(--gray-color);
+  transform: skew(45deg);
+}
+
+@keyframes move-arrows {
+  0%{width: 55px;}
+  50%{width: 70px;}
+  100%{width: 55px;}
+}
+
+
+
+/*=========================================mobileM=========================================*/
+
+@media screen and (min-width: 375px){
+  .body{
+    position: relative;
+    margin: 0;
+    background-color: var(--white-color);
+  }
+  
+  .home-color{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background-color: var(--red-color);
+  }
+  
+  .home-color::before{
+    content: '';
+    position: absolute;
+    bottom: -0.4px;
+    left: 0;
+    border-bottom: 40vw solid var(--white-color);
+    border-left: 100vw solid transparent;
+  }
+  
+  .front-end-developer{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translateX(-10%);
+    font-size: 18px;
+  }
+  
+  .white-str{
+    color: var(--white-color);
+  }
+  
+  .shiho-nagano{
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    font-size: 18px;
+    color: var(--white-color);
+  }
+  
+  .black-str{
+    color: var(--black-color);
+  }
+  
+  .intro-arrow{
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .intro p{
+    color: var(--gray-color);
+    font-size: 15px;
+  }
+  
+  .arrow i{
+    transform: rotate(90deg);
+  }
+  
+  .big-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 20%;
+    width: 100%;
+  }
+  
+  .home-img{
+    width: 300px;
+  }
+  
+  .down-arrow{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    animation: move-arrows 2s infinite;
+  }
+  
+  .down-arrow p {
+    position: relative;
+    top: 15px;
+    right: 15px;
+    transform: rotate(-90deg);
+    color: var(--gray-color);
+  }
+  
+  .arrow{
+    display: flex;
+    transform: rotate(90deg);
+  }
+  
+  .arrow::after{
+    content: '';
+    width: 55px;
+    height: 10px;
+    border-bottom: 1px solid var(--gray-color);
+    border-right: 1px solid var(--gray-color);
+    transform: skew(45deg);
+  }
+  
+  @keyframes move-arrows {
+    0%{width: 55px;}
+    50%{width: 70px;}
+    100%{width: 55px;}
+  }
+}
+
+
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px){
+  .home{
   position: relative;
 }
 
@@ -64,3 +303,5 @@ body{
 .home-img{
   width: 900px;
 }
+}
+

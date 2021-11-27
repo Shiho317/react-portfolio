@@ -1,0 +1,52 @@
+.menu-btn{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  z-index: 99;
+}
+
+.menu-list{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background-color: var(--red-color);
+  z-index: 98;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-list-hidden{
+  position: fixed;
+  top: -70%;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background-color: var(--red-color);
+  z-index: 98;
+}
+
+.menu-list ul {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translateX(-40%);
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+}
+
+.menu-list li{
+  font-size: 30px;
+  margin-top: 30px;
+  color: var(--white-color);
+}
+
+.menu-list li:hover{
+  color: var(--black-color);
+}
+
+
