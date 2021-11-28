@@ -1,17 +1,11 @@
+import React from 'react'
 
-const dataSlider = [
-  {
-    id: "watch-website",
-    title: "watch-website",
-  },
-  {
-    id: "SeattleDJ",
-    title: "SeattleDJ",
-  },
-  {
-    id: "InforMate",
-    title: "InforMate",
-  }
-];
+function DataSlider({ src }) {
+  return (
+    <div>
+      <img src={src} alt="slide-img"/>
+    </div>
+  )
+}
 
-export default dataSlider;
+export default DataSlider

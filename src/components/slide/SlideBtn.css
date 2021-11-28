@@ -1,8 +1,7 @@
 .slide-btn{
-  width: 100%;
-  
+  width: 100vw;
   position: absolute;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
