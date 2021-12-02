@@ -34,13 +34,13 @@
 
 .selfImage{
   position: absolute;
-  top: 25%;
+  top: 30%;
   width: 100%;
   
 }
 
 .selfImage img{
-  width: 250px;
+  width: 200px;
   filter: drop-shadow(10px 10px 0 #b78078);
   border: 2px solid rgb(161, 68, 68);
   border-radius: 125px;

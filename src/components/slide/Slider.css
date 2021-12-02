@@ -27,7 +27,8 @@
 .dot0,
 .dot1,
 .dot2,
-.dot3{
+.dot3,
+.dot4{
   width: 10px;
   height: 10px;
   border-radius: 50%;

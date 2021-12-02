@@ -6,12 +6,13 @@ import Project1 from '../../images/project-1.png';
 import Project2 from '../../images/project-2.png';
 import Project3 from '../../images/project-3.png';
 import Project4 from '../../images/project-4.png';
+import Project5 from '../../images/project-5.png';
 
 
 
 function Slider() {
 
-  const slideArr = [<DataSlider src={Project1}/>, <DataSlider src={Project2}/>, <DataSlider src={Project3}/>, <DataSlider src={Project4}/>]
+  const slideArr = [<DataSlider src={Project1}/>, <DataSlider src={Project2}/>, <DataSlider src={Project3}/>, <DataSlider src={Project4}/>, <DataSlider src={Project5}/>]
 
   const [x, setX] = useState(0)
   
@@ -51,6 +52,7 @@ function Slider() {
       <div className={(x * -1) / 100 === 1 ? "dot1 active" : "dot1"}></div>
       <div className={(x * -1) / 100 === 2 ? "dot2 active" : "dot2"}></div>
       <div className={(x * -1) / 100 === 3 ? "dot3 active" : "dot3"}></div>
+      <div className={(x * -1) / 100 === 4 ? "dot4 active" : "dot4"}></div>
     </div>
 
     </div>
