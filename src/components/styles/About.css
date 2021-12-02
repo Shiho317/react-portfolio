@@ -34,28 +34,31 @@
 
 .selfImage{
   position: absolute;
-  top: 30%;
+  top: 25%;
   width: 100%;
+  
 }
 
 .selfImage img{
-  width: 200px;
-  filter: drop-shadow(10px 10px 0 rgb(161, 68, 68));
+  width: 250px;
+  filter: drop-shadow(10px 10px 0 #b78078);
+  border: 2px solid rgb(161, 68, 68);
+  border-radius: 125px;
 }
 
 .profile{
   position: absolute;
-  bottom: 17%;
+  bottom: 5%;
   padding: 10px;
-  margin: 20px;
+  margin: 35px;
   z-index: 2;
-  background-color: var(--white-color);
+  
 }
 
 .profile p{
   text-align: start;
   font-size: 15px;
-  color: var(--black-color);
+  color: var(--gray-color);
   
 }
 
