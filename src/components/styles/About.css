@@ -34,26 +34,29 @@
 
 .selfImage{
   position: absolute;
-  top: 25%;
+  top: 30%;
   width: 100%;
 }
 
 .selfImage img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 200px;
+  filter: drop-shadow(10px 10px 0 rgb(161, 68, 68));
 }
 
 .profile{
   position: absolute;
-  bottom: 0;
+  bottom: 17%;
+  padding: 10px;
+  margin: 20px;
+  z-index: 2;
+  background-color: var(--white-color);
 }
 
 .profile p{
   text-align: start;
   font-size: 15px;
-  color: var(--gray-color);
-  margin: 15%;
+  color: var(--black-color);
+  
 }
 
 /*=========================================mobileM=========================================*/
@@ -100,9 +103,8 @@
   }
   
   .selfImage img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 250px;
+    filter: drop-shadow(10px 10px 0 rgb(161, 68, 68));
   }
   
   .profile{

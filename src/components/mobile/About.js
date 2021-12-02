@@ -1,5 +1,5 @@
 import React from 'react';
-import selfImage from '../../images/aboutme-img.jpg';
+import selfImage from '../../images/aboutme-img.png';
 import '../styles/About.css';
 
 function About() {
@@ -16,11 +16,8 @@ function About() {
         </div>
 
         <div className="profile">
-          <p>Shiho has a passionate to everything that she try to focus on. <br/>And now, she is absorbed in web development.<br/>
-          As a junior developer, she like to improve her skills and excited to find something she didn’t know.<br/> 
-          Even she is a junior developer, she is joining to developer community actively.<br/>
-          She has been created several web site with other web developers through online communication.<br/>
-          She thinks team project is more important not to mention self project,<br/> she is currently forcusing on working with others.</p>
+          <p>A front-end developer with a background as a nurse and a passion for learning, designing, programming, building functions. About personality, reliable, fast learner, self motivated, hardworking team player who works well with others. I believe that my passion for web development, designing, my skills and my personality would make me a great asset for your team and I would love to improve my knowledge and skills as your team member as well.
+          </p>
         </div>
       </div>
     </div>
