@@ -80,7 +80,7 @@
 
 .down-arrow{
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   display: block;

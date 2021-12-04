@@ -29,7 +29,7 @@
 
 .menu-list ul {
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 40%;
   transform: translateX(-40%);
   display: block;
@@ -40,8 +40,8 @@
 }
 
 .menu-list li{
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 20px;
+  margin-top: 40px;
   color: var(--white-color);
 }
 

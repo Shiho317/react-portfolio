@@ -3,6 +3,7 @@ import Home from './Home';
 import About from './About';
 import Work from './Work';
 import Menu from './Menu';
+import Resume from './Resume';
 
 function MobilePage() {
   return (
@@ -11,6 +12,7 @@ function MobilePage() {
       <Home/>
       <About/>
       <Work/>
+      <Resume/>
     </div>
   )
 }
