@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Spin as Hamburger } from 'hamburger-react'
 
-function HamburgerMenu() {
-
-    const [isOpenMenu, setIsOpenMenu] = useState(false);
+function HamburgerMenu({isOpenMenu, setIsOpenMenu}) {
     
   return (
     <div>

@@ -1,0 +1,85 @@
+.body{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white-color);
+  display: block;
+  text-align: center;
+}
+
+.contact-color{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95vh;
+  background-color: var(--red-color);
+}
+
+.contact-color::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 40vw solid var(--white-color);
+  border-left: 100vw solid transparent;
+}
+
+.details{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: block;
+}
+
+.details h4{
+  padding-top: 10px;
+  width: 200px;
+  text-align: start;
+}
+
+.tel{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mail{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.linkedin{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.discord{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.github{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.closing{
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+}
+
+.closing h1{
+  text-align: center;
+  color: var(--white-color);
+}

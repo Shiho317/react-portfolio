@@ -44,18 +44,20 @@
   font-size: 30px;
 }
 
-h5{
+.education h5{
   text-align: start;
   font-size: 15px;
 }
 
-h6{
+.education h6{
+  color: var(--gray-color);
   text-align: start;
   font-size: 13px;
   font-weight: lighter;
 }
 
-p{
+.education p{
+  color: var(--gray-color);
   font-size: 8px;
   margin-bottom: 10px;
 }
@@ -65,7 +67,7 @@ p{
 }
 
 .skills{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .wrap{
@@ -86,9 +88,26 @@ p{
 }
 
 .employment{
-  margin: 20px 40px;
+  margin: 30px 40px;
 }
 
+.employment h5{
+  text-align: start;
+  font-size: 15px;
+}
+
+.employment h6{
+  color: var(--gray-color);
+  text-align: start;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.employment p{
+  color: var(--gray-color);
+  font-size: 8px;
+  margin-bottom: 10px;
+}
 
 
 
