@@ -12,6 +12,7 @@ import BootstrapImg from '../../images/bootstrap.png';
 import FigmaImg from '../../images/figma.png';
 import InkscapeImg from '../../images/inkscape.png';
 import GithubImg from '../../images/github.png';
+import ResumePdf from '../../images/ShihoNagano-Résumé.pdf';
 
 function Resume() {
   return (
@@ -95,6 +96,12 @@ function Resume() {
             <p> - Apr 2019 - Jun 2021 / Osaka, Osaka, Japan</p>
           </div>
           </div>
+        </div>
+        <div>
+            <a href={ResumePdf} download="ShihoNagano-Résumé" className="download-resume">
+              <h6>Download/Print résumé</h6>
+              <i class="fas fa-file-export"></i>
+            </a>
         </div>
         </div>
       </div>

@@ -109,6 +109,17 @@
   margin-bottom: 10px;
 }
 
+.download-resume{
+  position: absolute;
+  bottom: 8%;
+  right: 45px;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--red-color);
+}
 
-
+.download-resume h6{
+  padding-top: 5px;
+}
 
