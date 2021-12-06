@@ -79,7 +79,15 @@
   width: 100%;
 }
 
-.closing h1{
+.closing h2{
   text-align: center;
   color: var(--white-color);
+  font-weight: lighter;
+}
+
+.back-to-top{
+  position: absolute;
+  bottom: 15%;
+  left: 20px;
+  color: var(--gray-color);
 }

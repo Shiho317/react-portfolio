@@ -34,7 +34,7 @@
 
 .selfImage{
   position: absolute;
-  top: 30%;
+  top: 28%;
   width: 100%;
   
 }
@@ -48,7 +48,7 @@
 
 .profile{
   position: absolute;
-  bottom: 5%;
+  bottom: 20%;
   padding: 10px;
   margin: 35px;
   z-index: 2;

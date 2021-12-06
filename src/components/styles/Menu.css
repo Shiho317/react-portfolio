@@ -27,25 +27,17 @@
   z-index: 98;
 }
 
-.menu-list ul {
-  position: absolute;
-  top: 12%;
-  left: 40%;
-  transform: translateX(-40%);
-  display: block;
-  list-style: none;
-  text-decoration: none;
-  outline: none;
+.menu-list nav {
+  display: grid;
+  place-items: center;
   text-align: center;
-}
-
-.menu-list li{
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 35%;
+  gap: 30px;
   color: var(--white-color);
 }
 
-.menu-list li:hover{
+.menu-list nav > .active:hover{
   color: var(--black-color);
 }
 

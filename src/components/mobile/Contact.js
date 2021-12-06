@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link as Scroll } from 'react-scroll';
 import '../styles/Contact.css';
 import Footer from './footer';
 
 function Contact() {
   return (
     <React.Fragment>
-      <div className="contact">
+      <div id="contact">
       <div className="body">
         <div className="contact-color"></div>
         
@@ -37,9 +38,20 @@ function Contact() {
         </div>
 
         <div className="closing">
-          <h1>Thank you.</h1>
+          <h2>Thank you.</h2>
         </div>
 
+        <div className="back-to-top">
+        <Scroll
+          to="home"
+          spy={true} 
+          smooth={true}
+          duration={1000}>
+            <i class="fas fa-sort-up" />
+            <p>Top</p>
+          </Scroll>
+          </div>
+        
         <Footer/>
       </div>
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as Scroll } from 'react-scroll';
 import '../styles/Resume.css';
 import HtmlImg from '../../images/html.png';
 import CssImg from '../../images/css.png';
@@ -17,7 +18,7 @@ import ResumePdf from '../../images/ShihoNagano-Résumé.pdf';
 function Resume() {
   return (
     <React.Fragment>
-      <div className="Resume">
+      <div id="resume">
         <div className="body">
           <div className="resume-color"></div>
           <div className="title">
@@ -103,6 +104,17 @@ function Resume() {
               <i class="fas fa-file-export"></i>
             </a>
         </div>
+
+        <div className="down-arrow">
+          <Scroll
+          to="contact"
+          spy={true} 
+          smooth={true}
+          duration={1000}>
+            <p>more</p>
+            <div className="arrow"></div>
+          </Scroll>
+          </div>
         </div>
       </div>
       
