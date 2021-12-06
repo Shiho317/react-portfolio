@@ -114,7 +114,7 @@
   bottom: 15%;
   right: 25px;
   display: flex;
-  gap: 10px;
+  gap: 5px;
   text-decoration: none;
   color: var(--red-color);
 }
