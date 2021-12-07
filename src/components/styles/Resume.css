@@ -123,3 +123,15 @@
   padding-top: 5px;
 }
 
+/*=========================================mobileM=========================================*/
+
+@media screen and (min-width: 375px){
+
+  .resume-color{
+    height: 28.6vh;
+  }
+
+  .education{
+    margin: 10px 40px;
+  }
+}

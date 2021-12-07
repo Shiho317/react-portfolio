@@ -17,7 +17,7 @@ function About() {
         </div>
 
         <div className="profile">
-          <p>A front-end developer with a background as a nurse and a passion for learning, designing, programming, building functions. About personality, reliable, fast learner, self motivated, hardworking team player who works well with others. 
+          <p>A front-end developer with a background as a nurse and a passion for learning, designing, programming, building functions.<br/> About personality, reliable, fast learner, self motivated, hardworking team player who works well with others. 
           </p>
         </div>
 
