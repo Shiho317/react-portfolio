@@ -31,13 +31,17 @@ function Resume() {
             <span className="red">E</span>ducation
           </div>
           <div className="contents">
+          <div>
             <h5>Cornerstone International Community College of Canada</h5>
             <h6>Diploma in Web Development</h6>
             <p> - Aug 2021 - Aug 2022 / Vancouver, BC, Canada</p>
+          </div>
 
+          <div>
             <h5>Mie Prefectural College Of Nursing</h5>
             <h6>Bachelor Degree of Nursing</h6>
             <p> - Apr 2015 - Mar 2019 / Tsu, Mie, Japan</p>
+          </div>
           </div>
           </div>
 

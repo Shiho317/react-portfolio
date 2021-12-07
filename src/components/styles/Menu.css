@@ -41,4 +41,12 @@
   color: var(--black-color);
 }
 
+/*=========================================tablet=========================================*/
 
+@media screen and (min-width: 768px){
+
+  .menu-list nav{
+    margin-top: 15%;
+    font-size: 25px;
+  }
+}

@@ -226,3 +226,35 @@ body{
 }
 }
 
+/*=========================================tablet=========================================*/
+
+@media screen and (min-width: 768px){
+
+  .home-color{
+    height: 65vh;
+  }
+
+  .home-color::before{
+    border-bottom: 25vw solid var(--white-color);
+    border-left: 100vw solid transparent;
+  }
+
+  .front-end-developer{
+    left: 20%;
+    font-size: 20px;
+  }
+
+  .shiho-nagano{
+    right: 20%;
+    font-size: 20px;
+  }
+
+  .home-img{
+    width: 350px;
+  }
+
+
+
+
+}
+

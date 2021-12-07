@@ -135,3 +135,57 @@
     margin: 10px 40px;
   }
 }
+
+/*=========================================mobileL=========================================*/
+
+@media screen and (min-width: 425px){
+
+  .resume-color{
+    height: 30vh;
+  }
+
+}
+
+/*=========================================tablet=========================================*/
+
+@media screen and (min-width: 768px){
+
+  .resume-color{
+    height: 37vh;
+  }
+
+  .education{
+    margin: 50px 0 0 0;
+    width: 100vw;
+  }
+
+  .education .contents{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .skills{
+    width: 83%;
+    margin: 20px auto;
+  }
+
+  .employment{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .employment h5{
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .employment h6{
+    text-align: center;
+  }
+
+  .download-resume{
+    right: 50px;
+  }
+}
