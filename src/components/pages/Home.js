@@ -1,12 +1,15 @@
 import React from 'react';
 import '../../App.css';
 import '../styles/Home.css';
+import '../styles/DesktopMenu.css';
 import HomeImage from '../../images/Shiho-home.png';
 
-function Home() {
+function DtHome() {
   return (
-    <div>
-      <div className="home">
+    <React.Fragment>
+      <div id="home">
+        <div className="body">
+        <div className="home-color"></div>
       <div className="header">
         <nav>
           <ul>
@@ -19,12 +22,7 @@ function Home() {
         </nav>
       </div>
 
-      <div className="body">
-        <div className="bg-color"></div>
-
-        <div className="big-img">
-          <img className="home-img" src={HomeImage} alt="home-img"/>
-        </div>
+      
 
         <div className="front-end-developer">
           <h1>Front End Developer</h1>
@@ -34,6 +32,10 @@ function Home() {
           <h1>Shiho Nagano</h1>
         </div>
 
+        <div className="big-img">
+          <img className="home-img" src={HomeImage} alt="home-img"/>
+        </div>
+
         <div className="intro-arrow">
           <div className="intro">
             <p>Thank you for visiting portfolio.<br/>
@@ -41,16 +43,19 @@ function Home() {
             you are going to be interested in me.</p>
           </div>
 
-          <div className="arrow">
-            <i class="fas fa-angle-double-right"></i>
+          <div className="next-arrow">
+            <p>more</p>
+            <div className="arrow"></div>
+              
           </div>
+
         </div>
       </div>
 
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 
-export default Home;
+export default DtHome;
 

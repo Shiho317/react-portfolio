@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Resume() {
+
+function DtResume() {
   return (
-    <div>
+    <React.Fragment>
       
-    </div>
+    </React.Fragment>
   )
 }
 
-export default Resume;
+export default DtResume;
