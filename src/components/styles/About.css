@@ -9,16 +9,17 @@
 }
 
 .about-color{
-  position: absolute;
+  position: relative;
+  width: 100%;
   top: 0;
   left: 0;
-  border-top: 80vh solid var(--red-color);
-  border-right: 85vw solid transparent;
+  height: 30vh;
+  background-color: var(--red-color);
 }
 
 .title{
   position: absolute;
-  top: 15%;
+  top: 5vh;
   width: 50%;
   border-bottom: 1px solid var(--white-color);
 }
@@ -34,7 +35,7 @@
 
 .selfImage{
   position: absolute;
-  top: 28%;
+  top: 20vh;
   width: 100%;
   
 }
@@ -66,13 +67,12 @@
 @media screen and (min-width: 375px){
   
   .about-color{
-    border-top: 70vh solid var(--red-color);
-    border-right: 85vw solid transparent;
+    height: 30vh;
   }
   
   .selfImage{
     position: absolute;
-    top: 28%;
+    top: 20vh;
     width: 100%;
   }
   
@@ -98,8 +98,7 @@
 @media screen and (min-width: 768px){
 
   .about-color{
-    border-top: 85vh solid var(--red-color);
-    border-right: 95vw solid transparent;
+    height: 32vh;
   }
 
   .selfImage img{

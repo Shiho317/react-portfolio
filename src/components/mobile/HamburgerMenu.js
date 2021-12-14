@@ -5,7 +5,7 @@ function HamburgerMenu({isOpenMenu, setIsOpenMenu}) {
     
   return (
     <div>
-      <Hamburger toggled={isOpenMenu} toggle={setIsOpenMenu} direction="right" size={30} color="var(--white-color)" />
+      <Hamburger toggled={isOpenMenu} toggle={setIsOpenMenu} direction="left" size={30} color="var(--white-color)" />
     </div>
   )
 }

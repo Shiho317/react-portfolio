@@ -12,6 +12,7 @@ function About() {
         <div className="title">
           <h2>About Me</h2>
         </div>
+        
         <div className="selfImage">
           <img src={selfImage} alt="self"/>
         </div>

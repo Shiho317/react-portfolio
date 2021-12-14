@@ -24,7 +24,6 @@ function Resume() {
           <div className="title">
           <h2>Résumé</h2>
           </div>
-          
           <div className="resume-details">
           <div className="education">
           <div className="subtitle">
@@ -101,13 +100,15 @@ function Resume() {
             <p> - Apr 2019 - Jun 2021 / Osaka, Osaka, Japan</p>
           </div>
           </div>
-        </div>
-        <div>
+
+          <div>
             <a href={ResumePdf} download="ShihoNagano-Résumé" className="download-resume">
               <h6>Download/Print résumé</h6>
               <i class="fas fa-file-export"></i>
             </a>
         </div>
+        </div>
+        
 
         <div className="down-arrow">
           <Scroll
