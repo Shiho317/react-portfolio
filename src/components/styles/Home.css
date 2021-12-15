@@ -238,8 +238,6 @@
     position: absolute;
     bottom: 20%;
     right: 50px;
-    display: flex;
-    justify-content: space-between;
     margin-top: 0px;
     width: 35%;
   }
@@ -260,14 +258,15 @@
   }
   
   .next-arrow{
-    position: absolute;
-    right: 0;
+    position: relative;
+    transform: translateX(90%);
+    bottom: 25%;
     display: block;
     animation: move-arrows 2s infinite;
   }
   
   .next-arrow p {
-    position: relative;
+    position: absolute;
     top: 30px;
     left: 30px;
     transform: rotate(0deg);

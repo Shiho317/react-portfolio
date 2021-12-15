@@ -19,11 +19,17 @@
   background-color: var(--red-color);
 }
 
-/* .title{
-  position: absolute;
-  top: 15%;
-  width: 50%;
-  border-bottom: 1px solid var(--white-color);
-} */
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px){
+
+  .work-color{
+    width: 100%;
+    height: 50vh;
+  }
+
+  
+}
+
 
 

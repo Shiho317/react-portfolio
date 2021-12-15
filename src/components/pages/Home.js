@@ -42,14 +42,14 @@ function DtHome() {
             I am sure when you finish to look my portfolio,<br/>
             you are going to be interested in me.</p>
           </div>
+        </div>
 
           <div className="next-arrow">
             <p>more</p>
             <div className="arrow"></div>
-              
           </div>
 
-        </div>
+        
       </div>
 
       </div>

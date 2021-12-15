@@ -44,6 +44,7 @@
 .white-btn:hover{
   color: var(--gray-color);
   border-bottom: 2px solid var(--white-color);
+  transition: all 0.2s ease;
 }
 
 .red-btn{
@@ -53,6 +54,7 @@
 .red-btn:hover{
   color: var(--gray-color);
   border-bottom: 2px solid var(--red-color);
+  transition: all 0.2s ease;
 }
 
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import selfImage from '../../images/aboutme-img.png';
+import '../styles/About.css';
 
 function DtAbout() {
   return (
@@ -10,6 +11,7 @@ function DtAbout() {
       <div className="title">
         <h2>About Me</h2>
       </div>
+      <div className='content-wrap'>
       <div className="selfImage">
         <img src={selfImage} alt="self"/>
       </div>
@@ -18,7 +20,8 @@ function DtAbout() {
         <p>A front-end developer with a background as a nurse and a passion for learning, designing, programming, building functions.<br/> About personality, reliable, fast learner, self motivated, hardworking team player who works well with others. 
         </p>
       </div>
-
+      </div>
+      
       <div className="next-arrow">
           <p>more</p>
           <div className="arrow"></div>

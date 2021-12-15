@@ -1,11 +1,26 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Work.css';
 
-function Work() {
+function DtWork() {
   return (
-    <div>
-      
+    <React.Fragment>
+    <div id="work">
+    <div className="body">
+      <div className="work-color"></div>
+
+    <div className="title">
+      <h2>Work</h2>
     </div>
+
+    <div className="next-arrow">
+      <p>more</p>
+      <div className="arrow"></div>
+    </div>
+
+    </div>
+  </div>
+    </React.Fragment>
   )
 }
 
-export default Work;
+export default DtWork;
