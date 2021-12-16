@@ -1,4 +1,4 @@
-.body{
+.body {
   position: relative;
   margin: 0;
   width: 100%;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.contact-color{
+.contact-color {
   position: relative;
   top: 0;
   left: 0;
@@ -17,8 +17,8 @@
   background-color: var(--red-color);
 }
 
-.contact-color::before{
-  content: '';
+.contact-color::before {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -26,66 +26,76 @@
   border-left: 100vw solid transparent;
 }
 
-.details{
+.details {
   position: absolute;
   top: 30%;
   width: 100%;
   display: block;
 }
 
-.details h4{
+.details a{
+  text-decoration: none;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+.details a:hover{
+  color: var(--hover-color);
+}
+
+.details h4 {
   padding-top: 10px;
   width: 200px;
   text-align: start;
 }
 
-.tel{
+.tel {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.mail{
+.mail {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.linkedin{
+.linkedin {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.discord{
+.discord {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.github{
+.github {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.closing{
+.closing {
   position: absolute;
   bottom: 25%;
   width: 100%;
 }
 
-.closing h2{
+.closing h2 {
   text-align: center;
   color: var(--white-color);
   font-weight: lighter;
 }
 
-.back-to-top{
+.back-to-top {
   position: absolute;
   bottom: 15%;
   left: 20px;
@@ -94,14 +104,37 @@
 
 /*=========================================mobileM=========================================*/
 
-@media screen and (min-width: 375px){}
+@media screen and (min-width: 375px) {
+}
 
 /*=========================================tablet=========================================*/
 
-@media screen and (min-width: 768px){
-
-  .contact-color::before{
+@media screen and (min-width: 768px) {
+  .contact-color::before {
     border-bottom: 20vw solid var(--white-color);
     border-left: 100vw solid transparent;
+  }
+}
+
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px) {
+  .contact-color {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--red-color);
+    z-index: -99;
+  }
+
+  .contact-color::before {
+    content: "";
+    position: absolute;
+    right: -0.5px;
+    border-right: 0vw solid transparent;
+    border-bottom: 0vh solid transparent;
+    z-index: -99;
   }
 }

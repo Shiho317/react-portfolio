@@ -264,6 +264,7 @@
     display: block;
     animation: move-arrows 2s infinite;
   }
+
   
   .next-arrow p {
     position: absolute;

@@ -10,20 +10,7 @@ function DtHome() {
       <div id="home">
         <div className="body">
         <div className="home-color"></div>
-      <div className="header">
-        <nav>
-          <ul>
-            <li className="white-btn">Home</li>
-            <li className="white-btn">About</li>
-            <li className="white-btn">Work</li>
-            <li className="red-btn">Resume</li>
-            <li className="red-btn">Contact</li>
-          </ul>
-        </nav>
-      </div>
-
-      
-
+        
         <div className="front-end-developer">
           <h1>Front End Developer</h1>
         </div>

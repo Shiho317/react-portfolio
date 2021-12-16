@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin as Hamburger } from 'hamburger-react'
+import { Spin as Hamburger } from 'hamburger-react';
 
 function HamburgerMenu({isOpenMenu, setIsOpenMenu}) {
     
