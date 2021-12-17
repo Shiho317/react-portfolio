@@ -6,6 +6,7 @@ import DtHome from '../pages/Home';
 import DtResume from '../pages/Resume';
 import DtWork from '../pages/Work';
 import './DesktopSlider.css';
+import DesktopMenu from '../pages/DesktopMenu';
 
 function DesktopSlider() {
   const desktopPageArr = [<DtHome/>, <DtAbout/>, <DtWork/>, <DtResume/>, <DtContact/>];
@@ -40,10 +41,11 @@ function DesktopSlider() {
             </div>
           )
         })}
-        <DesktopSlideBtn movePage={nextPage} direction={"next"}/>
-        <DesktopSlideBtn movePage={prevPage} direction={"prev"}/>
+        <DesktopSlideBtn movePage={nextPage} direction={"next"} index={x}/>
+        <DesktopSlideBtn movePage={prevPage} direction={"prev"} index={x}/>
 
       </div>
+      <DesktopMenu index={x} setIndex={setX}/>
     </React.Fragment>
   )
 }

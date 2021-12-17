@@ -37,24 +37,18 @@
   cursor: pointer;
 }
 
-.white-btn{
-  color: var(--white-color);
-}
-
-.white-btn:hover{
+.nav-btn{
   color: var(--hover-color);
-  border-bottom: 2px solid var(--white-color);
-  transition: all 0.2s ease;
 }
 
-.red-btn{
-  color: var(--red-color);
+.nav-btn:hover{
+  border-bottom: 2px solid var(--hover-color);
+  transition: all 0.1s ease;
 }
 
-.red-btn:hover{
-  color: var(--hover-color);
-  border-bottom: 2px solid var(--red-color);
-  transition: all 0.2s ease;
+
+.current{
+  color: var(--black-color);
 }
 
 }

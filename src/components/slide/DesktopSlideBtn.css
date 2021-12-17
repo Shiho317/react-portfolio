@@ -42,14 +42,14 @@
 
 @keyframes move-rightarrow {
   0%{right: 50px;}
-  50%{right: 70px;}
+  50%{right: 60px;}
   100%{right: 50px;}
 }
 
 @keyframes hover-rightarrow{
-  0%{right: 70px;}
-  50%{right: 70px;}
-  100%{right: 70px;}
+  0%{right: 60px;}
+  50%{right: 60px;}
+  100%{right: 60px;}
 }
 
 .prev-arrow{
@@ -71,12 +71,12 @@
   color: var(--gray-color);
 }
 
-.prev-arrow{
+.left-arrow{
   display: flex;
   transform: rotate(0deg);
 }
 
-.prev-arrow::after{
+.left-arrow::after{
   content: '';
   width: 90px;
   height: 10px;
@@ -87,12 +87,17 @@
 
 @keyframes move-leftarrow {
   0%{left: 50px;}
-  50%{left: 70px;}
+  50%{left: 60px;}
   100%{left: 50px;}
 }
 
 @keyframes hover-leftarrow{
-  0%{left: 70px;}
-  50%{left: 70px;}
-  100%{left: 70px;}
+  0%{left: 60px;}
+  50%{left: 60px;}
+  100%{left: 60px;}
+}
+
+.hidden{
+  visibility: hidden;
+  opacity: 0;
 }

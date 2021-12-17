@@ -8,8 +8,6 @@ import Project3 from '../../images/project-3.png';
 import Project4 from '../../images/project-4.png';
 import Project5 from '../../images/project-5.png';
 
-
-
 function Slider() {
 
   const slideArr = [<DataSlider src={Project1}/>, <DataSlider src={Project2}/>, <DataSlider src={Project3}/>, <DataSlider src={Project4}/>, <DataSlider src={Project5}/>]
