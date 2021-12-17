@@ -1,0 +1,98 @@
+.desktop-slideBtn{
+  position: fixed;
+  bottom: 15%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.next-arrow{
+  position: absolute;
+  display: block;
+  animation: move-rightarrow 2s infinite;
+  cursor: pointer;
+}
+
+.next-arrow:hover{
+  animation: hover-rightarrow 2s infinite;
+}
+
+.next-arrow p {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transform: rotate(0deg);
+  color: var(--gray-color);
+}
+
+.right-arrow{
+  display: flex;
+  transform: rotate(0deg);
+}
+
+.right-arrow::after{
+  content: '';
+  width: 90px;
+  height: 10px;
+  border-bottom: 1px solid var(--gray-color);
+  border-right: 1px solid var(--gray-color);
+  transform: skew(45deg);
+}
+
+@keyframes move-rightarrow {
+  0%{right: 50px;}
+  50%{right: 70px;}
+  100%{right: 50px;}
+}
+
+@keyframes hover-rightarrow{
+  0%{right: 70px;}
+  50%{right: 70px;}
+  100%{right: 70px;}
+}
+
+.prev-arrow{
+  position: absolute;
+  display: block;
+  animation: move-leftarrow 2s infinite;
+  cursor: pointer;
+}
+
+.prev-arrow:hover{
+  animation: hover-leftarrow 2s infinite;
+}
+
+.prev-arrow p {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transform: rotate(0deg);
+  color: var(--gray-color);
+}
+
+.prev-arrow{
+  display: flex;
+  transform: rotate(0deg);
+}
+
+.prev-arrow::after{
+  content: '';
+  width: 90px;
+  height: 10px;
+  border-bottom: 1px solid var(--gray-color);
+  border-left: 1px solid var(--gray-color);
+  transform: skew(135deg);
+}
+
+@keyframes move-leftarrow {
+  0%{left: 50px;}
+  50%{left: 70px;}
+  100%{left: 50px;}
+}
+
+@keyframes hover-leftarrow{
+  0%{left: 70px;}
+  50%{left: 70px;}
+  100%{left: 70px;}
+}

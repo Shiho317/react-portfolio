@@ -40,10 +40,6 @@ function DtContact() {
         <h2>Thank you.</h2>
       </div>
 
-      <div className="back-to-top">
-      <i class="fas fa-sort-up" />
-          <p>Top</p>
-      </div>
       
       <DtFooter/>
     </div>

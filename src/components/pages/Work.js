@@ -22,11 +22,6 @@ function DtWork() {
       <div className='contents-more'>see all projects</div>
     </div>
 
-    <div className="next-arrow">
-      <p>more</p>
-      <div className="arrow"></div>
-    </div>
-
     </div>
   </div>
     </React.Fragment>

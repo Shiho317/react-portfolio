@@ -34,10 +34,6 @@ function DtAbout() {
       </div>
       </div>
       
-      <div className="next-arrow">
-          <p>more</p>
-          <div className="arrow"></div>
-      </div>
     </div>
   </div>
     </React.Fragment>

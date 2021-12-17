@@ -256,37 +256,6 @@
   .home-img{
     width: 850px;
   }
-  
-  .next-arrow{
-    position: relative;
-    transform: translateX(90%);
-    bottom: 25%;
-    display: block;
-    animation: move-arrows 2s infinite;
-  }
-
-  
-  .next-arrow p {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    transform: rotate(0deg);
-    color: var(--gray-color);
-  }
-  
-  .arrow{
-    transform: rotate(0deg);
-  }
-  
-  .arrow::after{
-    width: 90px;
-  }
-  
-  @keyframes move-arrows {
-    0%{right: 0px;}
-    50%{right: 10px;}
-    100%{right: 0px;}
-  }
 
 }
 

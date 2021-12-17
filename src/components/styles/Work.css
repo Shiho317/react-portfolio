@@ -70,14 +70,6 @@
     color: var(--hover-color);
   }
 
-  .next-arrow{
-    position: absolute;
-    top: 75%;
-    left: 0%;
-    display: block;
-    animation: move-arrows 2s infinite;
-  }
-
 }
 
 
