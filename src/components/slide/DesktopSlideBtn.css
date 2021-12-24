@@ -10,12 +10,8 @@
 .next-arrow{
   position: absolute;
   display: block;
-  animation: move-rightarrow 2s infinite;
   cursor: pointer;
-}
-
-.next-arrow:hover{
-  animation: hover-rightarrow 2s infinite;
+  right: 50px;
 }
 
 .next-arrow p {
@@ -27,40 +23,95 @@
 }
 
 .right-arrow{
-  display: flex;
-  transform: rotate(0deg);
+  width: 90px;
+  height: 20px;
+  border-bottom: 1px solid var(--gray-color);
+  transition: all 0.5s ease;
 }
 
 .right-arrow::after{
   content: '';
-  width: 90px;
-  height: 10px;
-  border-bottom: 1px solid var(--gray-color);
-  border-right: 1px solid var(--gray-color);
-  transform: skew(45deg);
+  display: grid;
+  align-items: center;
+  position: absolute;
+  right: -15px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--gray-color);
+  border-radius: 50%;
+  animation: move-rightarrow 2s infinite;
+  transition: all 0.5s ease;
+}
+
+.right-arrow:hover{
+  animation: hover-rightarrow 1s forwards;
+  transition: all 0.5s ease;
+}
+
+.right-arrow:hover::after{
+  animation: hover-rightarrow-after 2s forwards;
+  transition: all 0.5s ease;
 }
 
 @keyframes move-rightarrow {
-  0%{right: 50px;}
-  50%{right: 60px;}
-  100%{right: 50px;}
+  0%{width: 35px;
+      height: 35px;}
+  50%{width: 40px;
+    height: 40px;}
+  100%{width: 35px;
+    height: 35px;}
 }
 
 @keyframes hover-rightarrow{
-  0%{right: 60px;}
-  50%{right: 60px;}
-  100%{right: 60px;}
+  0%{
+    width: 90px;
+    height: 20px;
+    border-bottom: 1px solid var(--gray-color);
+  }
+  50%{
+    width: 40px;
+    height: 40px;
+    border-bottom: none;
+    border: 1px solid var(--gray-color);
+    border-radius: 50%
+  }
+  75%{
+    width: 40px;
+    height: 40px;
+    border-bottom: none;
+    border: 1px solid transparent;
+    border-radius: 50%
+  }
+  100%{
+    width: 40px;
+    height: 40px;
+    border-bottom: none;
+    border: 1px solid transparent;
+    border-radius: 50%}
+}
+
+@keyframes hover-rightarrow-after{
+  0%{
+    width: 40px;
+    height: 40px;
+  }
+  50%{
+    width: 40px;
+    height: 40px;
+    right: 0;
+  }
+  100%{
+    width: 40px;
+    height: 40px;
+    right: 0;
+  }
 }
 
 .prev-arrow{
   position: absolute;
+  left: 60px;
   display: block;
-  animation: move-leftarrow 2s infinite;
   cursor: pointer;
-}
-
-.prev-arrow:hover{
-  animation: hover-leftarrow 2s infinite;
 }
 
 .prev-arrow p {
@@ -83,18 +134,6 @@
   border-bottom: 1px solid var(--gray-color);
   border-left: 1px solid var(--gray-color);
   transform: skew(135deg);
-}
-
-@keyframes move-leftarrow {
-  0%{left: 50px;}
-  50%{left: 60px;}
-  100%{left: 50px;}
-}
-
-@keyframes hover-leftarrow{
-  0%{left: 60px;}
-  50%{left: 60px;}
-  100%{left: 60px;}
 }
 
 .hidden{
