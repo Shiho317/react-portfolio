@@ -36,7 +36,9 @@ function Slider() {
       return(
         <div className="projects">
           <div key={index} className="project" style={{transform: `translateX(${x}%)`}}>
+            <a href='https://www.notion.so/de5824d2644647d4b56818c5c085dc9b?v=0f61cf96707c425582bc98350090d29c' rel='noreferrer' target='_blank'>
             {item}
+            </a>
           </div>
         </div>
       )

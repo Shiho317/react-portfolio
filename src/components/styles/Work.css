@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     gap: 100px;
+    cursor: pointer;
   }
 
   .work-contents img{
@@ -59,10 +60,14 @@
     height: 300px;
     background-color: var(--hover-color);
     border-radius: 10px;
-    color: var(--white-color);
     display: grid;
     align-items: center;
     transition: all 0.3s ease;
+  }
+
+  .contents-more a{
+    color: var(--white-color);
+    text-decoration: none;
   }
 
   .contents-more:hover{
