@@ -102,7 +102,7 @@ function DtResume() {
       </div>
 
       <div>
-        <a href={ResumePdf} download="ShihoNagano-Résumé" className="download-resume">
+        <a href={ResumePdf} rel='noreferrer' target='_blank' className="download-resume">
           <h6>Download/Print résumé</h6>
           <i class="fas fa-file-export size"></i>
         </a>
