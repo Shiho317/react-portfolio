@@ -81,6 +81,7 @@
 .icon-wrap{
   width: 30px;
   height: 30px;
+  font-size: 30px;
 }
 
 .icon-wrap img{
@@ -158,8 +159,16 @@
   }
 
   .education{
-    margin: 50px 0 0 0;
     width: 100vw;
+    margin: 0 auto;
+  }
+
+  .education h5{
+    text-align: center;
+  }
+
+  .education h6{
+    text-align: center;
   }
 
   .education .contents{
@@ -214,6 +223,7 @@
 
   .resume-details{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: 0 5%;
   }
@@ -230,11 +240,13 @@
 
   .education h5{
     font-size: 25px;
+    text-align: start;
   }
 
   .education h6{
     color: var(--hover-color);
     font-size: 20px;
+    text-align: start;
   }
 
   .education p{
@@ -260,6 +272,7 @@
   .icon-wrap{
     width: 50px;
     height: 50px;
+    font-size: 50px;
   }
   
   .icon-wrap img{

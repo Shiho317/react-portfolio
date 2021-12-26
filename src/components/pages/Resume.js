@@ -8,10 +8,10 @@ import JsImg from '../../images/javascript.png';
 import ReactImg from '../../images/react.png';
 import ReduxImg from '../../images/redux.png';
 import NextjsImg from '../../images/nextjs.png';
-import BootstrapImg from '../../images/bootstrap.png';
 import FigmaImg from '../../images/figma.png';
 import InkscapeImg from '../../images/inkscape.png';
 import GithubImg from '../../images/github.png';
+import { SiTailwindcss } from 'react-icons/si';
 import ResumePdf from '../../images/ShihoNagano-Résumé.pdf';
 
 
@@ -75,7 +75,7 @@ export default function DtResume() {
             <img src={NextjsImg} alt="nextjs"/>
           </div>
           <div className="icon-wrap">
-            <img src={BootstrapImg} alt="bootstrap"/>
+            <SiTailwindcss/>
           </div>
           <div className="icon-wrap">
             <img src={FigmaImg} alt="figma"/>
@@ -86,6 +86,7 @@ export default function DtResume() {
           <div className="icon-wrap">
             <img src={GithubImg} alt="github"/>
           </div>
+          
         </div>
       </div>
       </div>
