@@ -28,11 +28,12 @@
 }
 
 .menu-list nav {
-  display: grid;
-  place-items: center;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   font-size: 20px;
-  margin-top: 35%;
   gap: 30px;
   color: var(--white-color);
 }
@@ -50,7 +51,6 @@
 @media screen and (min-width: 768px){
 
   .menu-list nav{
-    margin-top: 15%;
     font-size: 25px;
   }
 }
