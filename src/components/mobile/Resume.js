@@ -15,7 +15,7 @@ import InkscapeImg from '../../images/inkscape.png';
 import GithubImg from '../../images/github.png';
 import ResumePdf from '../../images/ShihoNagano-Résumé.pdf';
 
-function Resume() {
+export default function Resume() {
   return (
     <React.Fragment>
       <div id="resume">
@@ -127,4 +127,3 @@ function Resume() {
   )
 }
 
-export default Resume

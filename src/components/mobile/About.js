@@ -3,7 +3,7 @@ import { Link as Scroll } from 'react-scroll';
 import selfImage from '../../images/aboutme-img.png';
 import '../styles/About.css';
 
-function About() {
+export default function About() {
   return (
     <React.Fragment>
     <div id="about">
@@ -38,4 +38,4 @@ function About() {
   )
 }
 
-export default About
+

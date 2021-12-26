@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spin as Hamburger } from 'hamburger-react';
 
-function HamburgerMenu({isOpenMenu, setIsOpenMenu}) {
+export default function HamburgerMenu({isOpenMenu, setIsOpenMenu}) {
     
   return (
     <div>
@@ -10,4 +10,3 @@ function HamburgerMenu({isOpenMenu, setIsOpenMenu}) {
   )
 }
 
-export default HamburgerMenu;

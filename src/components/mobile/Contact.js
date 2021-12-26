@@ -3,7 +3,7 @@ import { Link as Scroll } from 'react-scroll';
 import '../styles/Contact.css';
 import Footer from './footer';
 
-function Contact() {
+export default function Contact() {
   return (
     <React.Fragment>
       <div id="contact">
@@ -60,4 +60,3 @@ function Contact() {
   )
 }
 
-export default Contact

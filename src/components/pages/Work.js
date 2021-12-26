@@ -4,7 +4,7 @@ import Contents1 from '../../images/project-1.png';
 import Contents2 from '../../images/project-2.png';
 import Contents3 from '../../images/project-3.png';
 
-function DtWork() {
+ export default function DtWork() {
   return (
     <React.Fragment>
     <div id="work">
@@ -41,4 +41,3 @@ function DtWork() {
   )
 }
 
-export default DtWork;

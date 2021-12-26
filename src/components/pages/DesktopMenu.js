@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/DesktopMenu.css';
 
-function DesktopMenu({index, setIndex}) {
+export default function DesktopMenu({index, setIndex}) {
 
   return (
     <React.Fragment>
@@ -20,4 +20,3 @@ function DesktopMenu({index, setIndex}) {
   )
 }
 
-export default DesktopMenu

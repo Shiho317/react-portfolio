@@ -3,7 +3,7 @@ import { Link as Scroll } from 'react-scroll';
 import '../styles/Work.css';
 import Slider from '../slide/Slider';
 
-function Work() {
+export default function Work() {
 
   return (
     <React.Fragment>
@@ -33,4 +33,3 @@ function Work() {
   )
 }
 
-export default Work

@@ -3,7 +3,7 @@ import selfImage from '../../images/aboutme-img.png';
 import '../styles/About.css';
 import { useMediaQuery } from 'react-responsive';
 
-function DtAbout() {
+export default function DtAbout() {
 
   const isDesktop = useMediaQuery({
     query: '(min-width: 1024px)'
@@ -40,4 +40,3 @@ function DtAbout() {
   )
 }
 
-export default DtAbout;

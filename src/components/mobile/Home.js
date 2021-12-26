@@ -3,7 +3,7 @@ import { Link as Scroll } from 'react-scroll';
 import HomeImage from '../../images/Shiho-home.png';
 import '../styles/Home.css';
 
-function Home() {
+export default function Home() {
 
   return (
     <React.Fragment>
@@ -50,6 +50,5 @@ function Home() {
   )
 }
 
-export default Home
 
 

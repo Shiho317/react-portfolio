@@ -2,7 +2,7 @@ import React from 'react';
 import DesktopSlider from '../slide/DesktopSlider';
 import DesktopMenu from './DesktopMenu';
 
-function DesktopPage() {
+export default function DesktopPage() {
   return (
     <div>
       <DesktopMenu/>
@@ -11,4 +11,3 @@ function DesktopPage() {
   )
 }
 
-export default DesktopPage

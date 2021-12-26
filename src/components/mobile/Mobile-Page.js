@@ -6,7 +6,7 @@ import Menu from './Menu';
 import Resume from './Resume';
 import Contact from './Contact';
 
-function MobilePage() {
+export default function MobilePage() {
   return (
     <div>
       <Menu/>
@@ -19,5 +19,4 @@ function MobilePage() {
   )
 }
 
-export default MobilePage;
 

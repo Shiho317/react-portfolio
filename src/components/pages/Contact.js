@@ -2,7 +2,7 @@ import React from 'react';
 import DtFooter from './DtFooter';
 import '../styles/Contact.css';
 
-function DtContact() {
+export default function DtContact() {
   return (
     <React.Fragment>
     <div id="contact">
@@ -48,4 +48,3 @@ function DtContact() {
   )
 }
 
-export default DtContact;

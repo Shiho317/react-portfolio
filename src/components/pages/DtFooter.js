@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/footer.css';
 
-function DtFooter() {
+export default function DtFooter() {
   return (
     <React.Fragment>
       <div className="footer">
@@ -10,5 +10,3 @@ function DtFooter() {
     </React.Fragment>
   )
 }
-
-export default DtFooter

@@ -15,7 +15,7 @@ import GithubImg from '../../images/github.png';
 import ResumePdf from '../../images/ShihoNagano-Résumé.pdf';
 
 
-function DtResume() {
+export default function DtResume() {
   return (
     <React.Fragment>
     <div id="resume">
@@ -116,4 +116,3 @@ function DtResume() {
   )
 }
 
-export default DtResume;

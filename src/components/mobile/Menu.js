@@ -3,7 +3,7 @@ import { Link as Scroll } from 'react-scroll';
 import HamburgerMenu from './HamburgerMenu';
 import '../styles/Menu.css';
 
-function Menu() {
+export default function Menu() {
   
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
@@ -76,4 +76,3 @@ function Menu() {
   )
 }
 
-export default Menu

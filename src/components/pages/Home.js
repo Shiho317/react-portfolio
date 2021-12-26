@@ -4,7 +4,7 @@ import '../styles/Home.css';
 import '../styles/DesktopMenu.css';
 import HomeImage from '../../images/Shiho-home.png';
 
-function DtHome() {
+export default function DtHome() {
   return (
     <React.Fragment>
       <div id="home">
@@ -38,5 +38,4 @@ function DtHome() {
   )
 }
 
-export default DtHome;
 
