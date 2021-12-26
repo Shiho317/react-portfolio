@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&family=Notable&family=Rasa&display=swap');
+
+:root{
+  --red-color: #85382d;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #757085;
+  --hover-color: #b78078;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Enriqueta', serif;
+  font-family: 'Notable', sans-serif;
+  font-family: 'Rasa', serif;
+}

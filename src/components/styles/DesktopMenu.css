@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px){
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 99;
+}
+
+.header nav{
+  height: 100px;
+  padding: 30px;
+  z-index: 99;
+}
+
+.header ul{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.header li{
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-btn{
+  color: var(--hover-color);
+}
+
+.nav-btn:hover{
+  border-bottom: 2px solid var(--hover-color);
+  transition: all 0.1s ease;
+}
+
+
+.current{
+  color: var(--black-color);
+}
+
+}

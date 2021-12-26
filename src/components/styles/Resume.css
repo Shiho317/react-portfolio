@@ -1,0 +1,305 @@
+.body{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white-color);
+  display: block;
+  text-align: center;
+}
+
+.resume-color{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  background-color: var(--red-color);
+}
+
+.resume-color::before{
+  content: '';
+  position: absolute;
+  bottom: -0.5px;
+  left: 0;
+  border-bottom: 15vw solid var(--white-color);
+  border-right: 100vw solid transparent;
+}
+
+.resume-details{
+  position: absolute;
+  top: 20vh;
+}
+
+.education{
+  margin: 0 40px;
+}
+
+.subtitle{
+  font-size: 20px;
+}
+
+.red{
+  color: var(--red-color);
+  font-size: 30px;
+}
+
+.education h5{
+  text-align: start;
+  font-size: 15px;
+}
+
+.education h6{
+  color: var(--gray-color);
+  text-align: start;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.education p{
+  color: var(--gray-color);
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.contents{
+  margin: 5px;
+}
+
+.skills{
+  margin-top: 20px;
+}
+
+.wrap{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.icon-wrap{
+  width: 30px;
+  height: 30px;
+}
+
+.icon-wrap img{
+  width: 30px;
+}
+
+.employment{
+  margin: 20px 40px;
+}
+
+.employment h5{
+  text-align: start;
+  font-size: 15px;
+}
+
+.employment h6{
+  color: var(--gray-color);
+  text-align: start;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.employment p{
+  color: var(--gray-color);
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.download-resume{
+  position: absolute;
+  right: 25px;
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  color: var(--red-color);
+}
+
+.download-resume h6{
+  padding-top: 5px;
+}
+
+.size{
+  font-size: 10px;
+}
+
+/*=========================================mobileM=========================================*/
+
+@media screen and (min-width: 375px){
+
+  .resume-color{
+    height: 20vh;
+  }
+
+  .education{
+    margin: 10px 40px;
+  }
+}
+
+/*=========================================mobileL=========================================*/
+
+@media screen and (min-width: 425px){
+
+  .resume-color{
+    height: 20vh;
+  }
+
+}
+
+/*=========================================tablet=========================================*/
+
+@media screen and (min-width: 768px){
+
+  .resume-color{
+    height: 27vh;
+  }
+
+  .education{
+    margin: 50px 0 0 0;
+    width: 100vw;
+  }
+
+  .education .contents{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .skills{
+    width: 83%;
+    margin: 20px auto;
+  }
+
+  .employment{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .employment h5{
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .employment h6{
+    text-align: center;
+  }
+
+  .download-resume{
+    right: 50px;
+  }
+}
+
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px){
+
+  .resume-color{
+    width: 60%;
+    height: 100vh;
+  }
+
+  .resume-color::before{
+    border-bottom: 15vw solid transparent;
+    border-right: 100vw solid transparent;
+  }
+
+  .red{
+    color: var(--black-color);
+    font-size: 40px;
+  }
+
+  .resume-details{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+  }
+
+  .education{
+    display: inline-block;
+    width: 65%;
+    text-align: start;
+  }
+
+  .subtitle{
+    font-size: 30px;
+  }
+
+  .education h5{
+    font-size: 25px;
+  }
+
+  .education h6{
+    color: var(--hover-color);
+    font-size: 20px;
+  }
+
+  .education p{
+    color: var(--hover-color);
+    font-size: 15px;
+  }
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills{
+    width: 30%;
+    text-align: start;
+  }
+
+  .wrap{
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .icon-wrap{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-wrap img{
+    width: 50px;
+  }
+
+  .employment{
+    text-align: start;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .employment h5{
+    text-align: start;
+    font-size: 25px;
+  }
+  
+  .employment h6{
+    color: var(--hover-color);
+    text-align: start;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  
+  .employment p{
+    color: var(--hover-color);
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  .download-resume{
+    gap: 15px;
+  }
+  
+  .download-resume h6{
+    font-size: 20px;
+  }
+
+  .size{
+    font-size: 25px;
+  }
+
+}

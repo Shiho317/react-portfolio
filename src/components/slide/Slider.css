@@ -1,0 +1,53 @@
+.container-slider{
+  position: absolute;
+  display: flex;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.project{
+  width: 100vw;
+  height: 400px;
+  transition: all 0.5s ease;
+}
+
+.project img{
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px var(--black-color);
+}
+
+.dots-slider{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80%;
+  gap: 5px;
+  width: 100vw;
+}
+
+.dot0,
+.dot1,
+.dot2,
+.dot3,
+.dot4{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--black-color);
+  opacity: 0.5;
+}
+
+.active{
+  opacity: 1;
+}
+
+/*=========================================mobileM=========================================*/
+
+@media screen and (min-width: 375px){}
+
+/*=========================================tablet=========================================*/
+
+@media screen and (min-width: 768px){}
+

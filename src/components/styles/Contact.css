@@ -1,0 +1,140 @@
+.body {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white-color);
+  display: block;
+  text-align: center;
+}
+
+.contact-color {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95vh;
+  background-color: var(--red-color);
+}
+
+.contact-color::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 40vw solid var(--white-color);
+  border-left: 100vw solid transparent;
+}
+
+.details {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: block;
+}
+
+.details a{
+  text-decoration: none;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+.details a:hover{
+  color: var(--hover-color);
+}
+
+.details h4 {
+  padding-top: 10px;
+  width: 200px;
+  text-align: start;
+}
+
+.tel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mail {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.linkedin {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.discord {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.github {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.closing {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+}
+
+.closing h2 {
+  text-align: center;
+  color: var(--white-color);
+  font-weight: lighter;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 15%;
+  left: 20px;
+  color: var(--gray-color);
+}
+
+/*=========================================mobileM=========================================*/
+
+@media screen and (min-width: 375px) {
+}
+
+/*=========================================tablet=========================================*/
+
+@media screen and (min-width: 768px) {
+  .contact-color::before {
+    border-bottom: 20vw solid var(--white-color);
+    border-left: 100vw solid transparent;
+  }
+}
+
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px) {
+  .contact-color {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--red-color);
+    z-index: -99;
+  }
+
+  .contact-color::before {
+    content: "";
+    position: absolute;
+    right: -0.5px;
+    border-right: 0vw solid transparent;
+    border-bottom: 0vh solid transparent;
+    z-index: -99;
+  }
+}

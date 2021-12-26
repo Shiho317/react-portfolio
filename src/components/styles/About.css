@@ -1,0 +1,191 @@
+.body{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white-color);
+  display: block;
+  text-align: center;
+}
+
+.about-color{
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 35vh;
+  background-color: var(--red-color);
+}
+
+.title{
+  position: absolute;
+  top: 5vh;
+  width: 50%;
+  border-bottom: 1px solid var(--white-color);
+}
+
+.title h2{
+  color: var(--white-color);
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 5px;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.selfImage{
+  position: absolute;
+  top: 25vh;
+  width: 100%;
+}
+
+.selfImage img{
+  width: 200px;
+  filter: drop-shadow(10px 10px 0 #b78078);
+  border: 2px solid rgb(161, 68, 68);
+  border-radius: 125px;
+}
+
+.profile{
+  position: absolute;
+  bottom: 20%;
+  padding: 10px;
+  margin: 40px;
+  z-index: 2;
+}
+
+.profile p{
+  text-align: start;
+  font-size: 15px;
+  color: var(--gray-color);
+  margin: 0 auto;
+}
+
+/*=========================================mobileM=========================================*/
+
+@media screen and (min-width: 375px){
+  
+  .about-color{
+    height: 35vh;
+  }
+  
+  .selfImage{
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+  }
+  
+  .selfImage img{
+    width: 220px;
+  }
+  
+  .profile{
+    position: absolute;
+    bottom: 12%;
+  }
+  
+  .profile p{
+    text-align: start;
+    font-size: 15px;
+    color: var(--gray-color);
+    margin: 10%;
+  }
+}
+
+/*=========================================tablet=========================================*/
+
+@media screen and (min-width: 768px){
+
+  .about-color{
+    height: 37vh;
+  }
+
+  .selfImage img{
+    width: 250px;
+  }
+
+}
+
+/*=========================================desktop=========================================*/
+
+@media screen and (min-width: 1024px){
+
+  .body{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white-color);
+    display: block;
+    text-align: center;
+  }
+  
+  .about-color{
+    position: relative;
+    width: 23%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: var(--red-color);
+  }
+  
+  .title{
+    position: absolute;
+    top: 10vh;
+    width: 20%;
+    border-bottom: 1px solid var(--white-color);
+  }
+  
+  .title h2{
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 5px;
+    text-align: end;
+    padding-right: 20px;
+  }
+
+  .content-wrap{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .selfImage{
+    position: relative;
+    top: 0;
+    flex: 1;
+  }
+  
+  .selfImage img{
+    width: 400px;
+    filter: drop-shadow(10px 10px 0 #b78078);
+    border: 2px solid rgb(161, 68, 68);
+    border-radius: 125px;
+  }
+  
+  .profile{
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    margin: 0;
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .profile p{
+    text-align: start;
+    font-size: 24px;
+    color: var(--gray-color);
+    margin: 0;
+    width: 70%;
+  }
+  
+}
