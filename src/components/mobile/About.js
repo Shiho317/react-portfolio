@@ -9,17 +9,20 @@ export default function About() {
     <div id="about">
       <div className="body">
         <div className="about-color"></div>
+
         <div className="title">
           <h2>About Me</h2>
         </div>
         
-        <div className="selfImage">
-          <img src={selfImage} alt="self"/>
-        </div>
+        <div className='image-section'>
+          <div className="selfImage">
+            <img src={selfImage} alt="self"/>
+          </div>
 
-        <div className="profile">
-          <p>A front-end developer with a background as a nurse and a passion for learning, designing, programming, building functions.<br/> About personality, reliable, fast learner, self motivated, hardworking team player who works well with others. 
-          </p>
+          <div className="profile">
+            <p>A front-end developer with a background as a nurse and a passion for learning, designing, programming, building functions.<br/> About personality, reliable, fast learner, self motivated, hardworking team player who works well with others. 
+            </p>
+          </div>
         </div>
 
         <div className="down-arrow">

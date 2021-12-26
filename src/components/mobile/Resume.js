@@ -106,7 +106,7 @@ export default function Resume() {
               <h6>Download/Print résumé</h6>
               <i class="fas fa-file-export"></i>
             </a>
-        </div>
+          </div>
         </div>
         
 

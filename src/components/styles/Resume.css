@@ -29,6 +29,9 @@
 .resume-details{
   position: absolute;
   top: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .education{
@@ -59,15 +62,12 @@
 .education p{
   color: var(--gray-color);
   font-size: 8px;
-  margin-bottom: 10px;
 }
 
 .contents{
-  margin: 5px;
-}
-
-.skills{
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .wrap{
@@ -88,7 +88,7 @@
 }
 
 .employment{
-  margin: 20px 40px;
+  margin: 0px 40px;
 }
 
 .employment h5{
