@@ -30,9 +30,9 @@
 .front-end-developer{
   position: absolute;
   top: 16%;
-  left: 10%;
+  left: 16%;
   transform: translateX(-10%);
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .white-str{
@@ -43,7 +43,7 @@
   position: absolute;
   top: 22%;
   right: 10%;
-  font-size: 15px;
+  font-size: 12px;
   color: var(--white-color);
 }
 
@@ -126,11 +126,11 @@
     top: 15%;
     left: 15%;
     transform: translateX(-10%);
-    font-size: 18px;
+    font-size: 12px;
   }
   
   .shiho-nagano{
-    font-size: 18px;
+    font-size: 12px;
   }
   
   .black-str{

@@ -131,11 +131,11 @@
 @media screen and (min-width: 375px){
 
   .resume-color{
-    height: 20vh;
+    height: 22vh;
   }
 
   .education{
-    margin: 10px 40px;
+    margin: 0px 40px;
   }
 }
 
