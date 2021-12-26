@@ -52,5 +52,6 @@
 
   .menu-list nav{
     font-size: 25px;
+    gap: 40px;
   }
 }
