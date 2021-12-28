@@ -28,11 +28,12 @@ import Contents3 from '../../images/project-3.png';
         <img src={Contents3} alt='contents3'/>
       </a>
       
-      <div className='contents-more'>
-        <a href='https://robust-hickory-4b2.notion.site/de5824d2644647d4b56818c5c085dc9b?v=0f61cf96707c425582bc98350090d29c' rel='noreferrer' target='_blank'>
+      
+      <a href='https://robust-hickory-4b2.notion.site/de5824d2644647d4b56818c5c085dc9b?v=0f61cf96707c425582bc98350090d29c' rel='noreferrer' target='_blank'>
+        <div className='contents-more'>
           see all projects
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
 
     </div>

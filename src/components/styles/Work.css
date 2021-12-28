@@ -55,6 +55,11 @@
     transform: scale(2);
   }
 
+  .work-contents a{
+    color: var(--white-color);
+    text-decoration: none;
+  }
+
   .contents-more{
     width: 200px;
     height: 300px;
@@ -63,9 +68,6 @@
     display: grid;
     align-items: center;
     transition: all 0.3s ease;
-  }
-
-  .contents-more a{
     color: var(--white-color);
     text-decoration: none;
   }
