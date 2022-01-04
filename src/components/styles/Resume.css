@@ -20,7 +20,7 @@
 .resume-color::before{
   content: '';
   position: absolute;
-  bottom: -0.5px;
+  bottom: -1px;
   left: 0;
   border-bottom: 15vw solid var(--white-color);
   border-right: 100vw solid transparent;
@@ -282,7 +282,7 @@
   .employment{
     text-align: start;
     margin: 0;
-    margin: 50px 10px;
+    margin: 0px 10px;
   }
 
   .employment h5{

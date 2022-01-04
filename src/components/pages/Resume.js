@@ -8,7 +8,9 @@ import JsImg from '../../images/javascript.png';
 import ReactImg from '../../images/react.png';
 import ReduxImg from '../../images/redux.png';
 import NextjsImg from '../../images/nextjs.png';
+import { SiTypescript } from 'react-icons/si';
 import FigmaImg from '../../images/figma.png';
+import { SiFirebase } from  'react-icons/si';
 import InkscapeImg from '../../images/inkscape.png';
 import GithubImg from '../../images/github.png';
 import { SiTailwindcss } from 'react-icons/si';
@@ -75,10 +77,16 @@ export default function DtResume() {
             <img src={NextjsImg} alt="nextjs"/>
           </div>
           <div className="icon-wrap">
+            <SiTypescript/>
+          </div>
+          <div className="icon-wrap">
             <SiTailwindcss/>
           </div>
           <div className="icon-wrap">
             <img src={FigmaImg} alt="figma"/>
+          </div>
+          <div className="icon-wrap">
+            <SiFirebase/>
           </div>
           <div className="icon-wrap">
             <img src={InkscapeImg} alt="inkscape"/>
