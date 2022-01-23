@@ -25,9 +25,9 @@ export default function DtHome() {
 
         <div className="intro-arrow">
           <div className="intro">
-            <p>Thank you for visiting portfolio.<br/>
-            I am sure when you finish to look my portfolio,<br/>
-            you are going to be interested in me.</p>
+            <p>Thank you for visiting my website.<br/>
+            To learn about me, you can use links above<br/>
+            or click on a button in below.</p>
           </div>
         </div>
         
