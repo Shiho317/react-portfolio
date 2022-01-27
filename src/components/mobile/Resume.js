@@ -103,9 +103,9 @@ export default function Resume() {
             <span className="red">E</span>mployment
           </div>
           <div className="contents">
-            <h5>Osaka Red Cross Hospital</h5>
-            <h6>Registered Nurse</h6>
-            <p> - Apr 2019 - Jun 2021 / Osaka, Osaka, Japan</p>
+            <h5>Frontend Web Developer</h5>
+            <h6>Protest Tunes</h6>
+            <p> - Nov 2021 - Present / Seattle, Washington, United States</p>
           </div>
           </div>
 
