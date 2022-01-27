@@ -119,6 +119,10 @@
   color: var(--red-color);
 }
 
+.download-resume:hover{
+  color: var(--hover-color)
+}
+
 .download-resume h6{
   padding-top: 5px;
 }
