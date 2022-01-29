@@ -16,7 +16,7 @@ import Contents3 from '../../images/project-3.png';
     </div>
 
     <div className='work-contents'>
-      <a href='https://robust-hickory-4b2.notion.site/nero-waffle-bar-Website-56e914fbb12f4b6cbb3be6b980c06c51' rel='noreferrer' target='_blank'>
+      <a href='https://robust-hickory-4b2.notion.site/E-Commerce-Website-b186791ebe654f0a80d632e7dc3d84c3' rel='noreferrer' target='_blank'>
         <img src={Contents1} alt='contents1'/>
       </a>
       
